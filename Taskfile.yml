@@ -1,0 +1,6 @@
+version: 3
+
+tasks:
+  deploy:
+    cmds:
+      - go build -o ./bin -trimpath -ldflags="-w -s"
